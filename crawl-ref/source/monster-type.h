@@ -673,6 +673,8 @@ enum monster_type                      // menv[].type
     MONS_GHOUL,
 #if TAG_MAJOR_VERSION == 34
     MONS_FLAMING_CORPSE,
+#else
+    MONS_BLOATED_HUSK,
 #endif
     MONS_MUMMY,
     MONS_BOG_BODY,
@@ -1068,6 +1070,7 @@ enum monster_type                      // menv[].type
     MONS_MAGGIE,
     MONS_NAMELESS,
     MONS_PALENTONGA,
+    MONS_BLOATED_HUSK,
 #endif
 
     NUM_MONSTERS,               // used for polymorph
