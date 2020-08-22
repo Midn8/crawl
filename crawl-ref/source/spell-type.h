@@ -494,5 +494,6 @@ enum spell_type : int
     SPELL_FROZEN_RAMPARTS,
     SPELL_ABSOLUTE_ZERO,
     SPELL_ROLL,
+    SPELL_IMPLANT_EGGS,
     NUM_SPELLS
 };
